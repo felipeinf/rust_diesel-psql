@@ -49,10 +49,15 @@ fn main(){
       .expect("Failed to create new post");
   }
 
+  // Prints all post every 5 seconds
+  sleep_time = Duration::new(5, 0);
 
+  loop {
   posts_list.iter().for_each(|post| {
     println!("{:?}", post);
   });
 
+    sleep(sleep_time);
+  }
 
 }

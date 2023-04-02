@@ -1,0 +1,7 @@
+.env
+.gitnore
+.postgresql_data
+.dockerignore
+.ignore
+docker-compose.yml
+Dockerfile
